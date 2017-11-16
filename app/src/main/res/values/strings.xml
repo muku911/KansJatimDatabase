@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Kans Jatim Database</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="title_activity_create">Registrasi</string>
+
+
+    <!-- Strings related to massage -->
+    <string name="hello_user">Hello," "</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="smp_or_sma">Checklist SMP or SMA</string>
+    <string name="dropdown_invalid">Choose School</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Fill Password With Number (min 6)</string>
+    <string name="error_invalid_birthday">Use (,) Like (Eg : Batu, 1 June 2010)</string>
+    <string name="error_nickname">This Username Has Been Used</string>
+    <string name="error_nickname_struck">Do not Use (Space)</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_jurusan">Make Like (Teknik Komputer FTE ITS 2014)</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+</resources>

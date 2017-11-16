@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bg"
+    android:orientation="vertical"
+    tools:context="com.mukusuzuki.kansjatimdatabase.CreateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="100"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/username_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username (min 6)"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <EditText
+                    android:id="@+id/password_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:hint="Password (min 6)"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="numberPassword"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text"
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="97dp"
+                    tools:layout_editor_absoluteY="381dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Diri"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/fullname_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Panjang"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/nickname_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Panggilan"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/birthday_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tempat Tanggal Lahir"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/phone_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nomor HP Anda"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <AutoCompleteTextView
+                    android:id="@+id/email_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prompt_email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/cb_SMP_create"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="SMP"
+                        android:visibility="visible"
+                        tools:layout_editor_absoluteX="36dp"
+                        tools:layout_editor_absoluteY="463dp" />
+
+                    <CheckBox
+                        android:id="@+id/cb_SMA_create"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="SMA"
+                        android:visibility="visible"
+                        tools:layout_editor_absoluteX="117dp"
+                        tools:layout_editor_absoluteY="463dp" />
+
+                </LinearLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayout"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="15dp"
+                    tools:layout_editor_absoluteY="280dp">
+
+                    <EditText
+                        android:id="@+id/schoolgen_create"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Gen"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="numberDecimal"
+                        android:singleLine="true"
+                        android:textColor="@color/Bg_Text" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Spinner
+                    android:id="@+id/drop_school_create"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="11dp"
+                    android:background="@color/Bg_school"
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="167dp"
+                    tools:layout_editor_absoluteY="455dp" />
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/address_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Alamat Anda Sekarang (Kos/Kontrakan)"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPostalAddress"
+                    android:maxLines="1"
+                    android:singleLine="false"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/jurusan_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Universitas (Teknik Komputer FTE ITS 2014)"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPostalAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text"
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="8dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/motto_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Motto"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Info Media Sosial"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/line_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="LINE ID (Pastikan Memperbolehkan Add by ID)"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/instagram_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="INSTAGRAM"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Info Orangtua"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/name_parrent_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Orangtua (Ayah/Ibu)"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPersonName"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/phone_parrent_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nomor HP Orangtua (Yang Bisa di Hubungi)"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/address_parrent_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Alamat Rumah Orangtua"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPostalAddress"
+                    android:singleLine="true"
+                    android:textColor="@color/Bg_Text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:onClick="saveData"
+        android:text="Save"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+
+</LinearLayout>

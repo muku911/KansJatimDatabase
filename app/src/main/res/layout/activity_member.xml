@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bg"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.mukusuzuki.kansjatimdatabase.MemberActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tx_User">
+
+        <LinearLayout
+            android:id="@+id/infoUserM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Bg"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/info_userM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="INFO USER"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/NameM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Nama Panjang"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_NameM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="@color/DataColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/NicknameM_jdl_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Nama Panggilan"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_NicknameM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="@color/DataColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/birthdayM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Tempat Tanggal Lahir"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_birthdayM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="10dp"
+                android:textColor="@color/DataColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phoneM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Nomor HP"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_PhoneM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:fontFamily="sans-serif"
+                android:linksClickable="true"
+                android:onClick="callmeM"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/EmailM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Email"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_EmailM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:autoLink="email"
+                android:fontFamily="sans-serif"
+                android:linksClickable="true"
+                android:paddingLeft="10dp"
+                android:textColor="@color/DataColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/UniversitasM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Jurusan Fakultas Universitas"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_jurusanM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="10dp"
+                android:textColor="@color/DataColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/AddressM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Alamat"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_addressM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="10dp"
+                android:textColor="@color/DataColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/SchoolM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Sekolah Asal"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_GenerationM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="10dp"
+                android:textColor="@color/DataColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_mottoM"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="My Motto : "
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_isi_MottoM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/DataColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info_ortuM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="INFO ORANGTUA"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Name_parrentM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Nama"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_name_parrentM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="10dp"
+                android:textColor="@color/DataColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Address_parrentM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Alamat"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_address_parrentM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="10dp"
+                android:textColor="@color/DataColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Phone_parrentM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:text="Nomor HP"
+                android:textColor="@color/judul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tx_phone_parrentM_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:fontFamily="sans-serif"
+                android:onClick="callparrentM"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info_medsosM_jdl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="INFO MEDSOS"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/instaInfoM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/icon_instaM"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/insta"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/tx_instaM_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:inputType="textPersonName"
+                    android:text="INSTAGRAM"
+                    android:textColor="@color/DataColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lineInfoM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/icon_lineM"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/line" />
+
+                <TextView
+                    android:id="@+id/tx_lineM_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_vertical"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/DataColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="LINE ID" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:onClick="back"
+            android:text="Back"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "793489923352",
+    "firebase_url": "https://kansjatimdatabase.firebaseio.com",
+    "project_id": "kansjatimdatabase",
+    "storage_bucket": "kansjatimdatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793489923352:android:6287cff860031c71",
+        "android_client_info": {
+          "package_name": "com.mukusuzuki.kansjatimdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793489923352-mksnnqdlr7q4421s494864n7ico4604f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mukusuzuki.kansjatimdatabase",
+            "certificate_hash": "571061c361f57e90c08a0f0d93bf62d7c3c9d542"
+          }
+        },
+        {
+          "client_id": "793489923352-n2o6hjpvc2bpmb3kcau6m1agn5qt1lbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv8xq_-WBhTkdb4aAbrgTjelBHooav5QE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793489923352-n2o6hjpvc2bpmb3kcau6m1agn5qt1lbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

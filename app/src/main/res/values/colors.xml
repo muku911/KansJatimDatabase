@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fd0056</color>
+
+    <!-- Base application Profile -->
+    <color name="colorPrimary1">#FF175433</color>
+    <color name="colorPrimaryDark1">#124128</color>
+    <color name="colorAccent1">#fd0056</color>
+    <color name="colorTitle">#ffffff</color>
+    <color name="Bg">#f4fdff</color>
+    <color name="DataColor">#2a975d</color>
+    <color name="Bg_Text">#012800</color>
+    <color name="judul">#013932</color>
+    <color name="infoJudul">#0f6418</color>
+    <color name="Bg_school">#f4f4f4</color>
+    <color name="topheader">#2fa968</color>
+    <color name="datamember">#dbeae8</color>
+    <color name="univmember">#1a3632</color>
+    <color name="phonemember">#125c34</color>
+    <color name="datamembertop">#c3f6ef</color>
+</resources>
