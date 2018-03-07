@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Version ver = dataSnapshot.getValue(Version.class);
-                int myVersion = 1;
+                int myVersion = 2;
                 int newVersion = Integer.parseInt(ver.getVersion());
                 final String update = ver.getUpdate();
                 if (myVersion == newVersion){

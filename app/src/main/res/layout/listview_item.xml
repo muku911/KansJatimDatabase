@@ -19,6 +19,17 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tx_angkatanVIew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:text="Angkatan"
+        android:textColor="@color/univmember"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/tx_universityVIew"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

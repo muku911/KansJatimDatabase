@@ -12,7 +12,7 @@
         android:id="@+id/topheader"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/topheader"
+        android:background="#196d3f"
         android:orientation="horizontal"
         android:paddingLeft="10dp"
         android:paddingTop="5dp">

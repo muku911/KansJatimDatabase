@@ -2,22 +2,224 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\jv\Project\KansJatimDatabase\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\fc06e92dc950d0d2aff4bfb97eb0ceea\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
-        sha1="0d622edd96ccc6df75150e743a348874b9ebec11">
-        <dex dex="C:\jv\Project\KansJatimDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9a97f9bfa34f78d7defdeed393aea48fcaec20bf\classes.dex" />
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\jv\Project\KansJatimDatabase\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\firebase-analytics-10.0.1.aar\f3861a54ccb9c3ac14b8a9f8a434306d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\jv\Project\KansJatimDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0fbb80358c2a215ac9f75203de6f780c241bf542\classes.dex" />
+        revision="26.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\7dfe9ed1960d5e90dae64c967cbaa763\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\4bf593150fd3f3c0d50e71e72e64f496\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-10.0.1.aar\e918f6311d35a2a5c5465d870e4748e5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\d2c8a87d6b483c89aced6f2fe15ad6e7\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-10.0.1.aar\230c262b333ba299c97e41ea8c952c4f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\6af826a97ff0fd80f638b0eab5861208\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\408a8381cef55aee580806232402d378\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\3a88707df7b2fcc34897bc8c9108a3db\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\firebase-iid-10.0.1.aar\2388db24185c074ab5752bc9221020eb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\0cf87ece8e35be033b80952ec8a97e32\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\firebase-database-10.0.1.aar\bb545e6676b12ed5091b626428ef4f4d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\5e4c177fba2ae6329ab845df4287756e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\13cf1ac2d98eeb8fbdcfa0bbbf76ac5f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\firebase-common-10.0.1.aar\c8482f7c445f51f83929a292e391a1b8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b1b5635c3481ea407c6b32c36e137190\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\24adf86f561a3b28362f0ad567846e5d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\a39e623941582c8b7856bf34eaa6904c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\e204ee7dc97a8b904dfb5b1e9949d044\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Uu__uU\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\9dbe0a2efeb74f9daade0c1c786ed240\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\Uu__uU\Documents\#ANDROID\##Project##\KansJatimDatabase\app\build\intermediates\transforms\preDex\release\8.jar" />
     </item>
 
 </items>

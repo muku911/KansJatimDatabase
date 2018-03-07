@@ -345,7 +345,7 @@ public class CreateActivity extends AppCompatActivity {
                         for (int x = 0 ; x < user_list.size(); x++){
                             if (!username.equals(user_list.get(x).getUser())){
 
-                                User user = new User(username,UID, nickname, name, password, phone, univFull);
+                                User user = new User(username,UID, nickname, name, password, phone, univFull, totalschool);
                                 userDatabase.child("users").child(user.getUser()).setValue(user);
 
                                 Database database = new Database(UID, name, nickname, birthday, phone, email,
@@ -363,7 +363,7 @@ public class CreateActivity extends AppCompatActivity {
                         }
                     } else if (user_list.size() <= 0){
 
-                        User user = new User(username, UID, nickname, name, password, phone, univFull);
+                        User user = new User(username, UID, nickname, name, password, phone, univFull, totalschool);
                         userDatabase.child("users").child(user.getUser()).setValue(user);
 
                         Database database = new Database(UID, name, nickname, birthday, phone, email,

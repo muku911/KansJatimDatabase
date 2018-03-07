@@ -8,6 +8,12 @@ android {
             storeFile file('C:/jv/Project/KansJatimDatabase/kansjatimKey.jks')
             storePassword '18061109'
         }
+        configs {
+            keyAlias 'mukususukiproject'
+            keyPassword '18061109'
+            storeFile file('C:/Users/Uu__uU/Documents/#ANDROID/##Project##/KansJatimDatabase/kansjatimKey.jks')
+            storePassword '18061109'
+        }
     }
     compileSdkVersion 26
     buildToolsVersion '26.0.2'
@@ -18,13 +24,13 @@ android {
         versionCode 2
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        signingConfig signingConfigs.config
+        signingConfig signingConfigs.configs
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
+            signingConfig signingConfigs.configs
         }
     }
     productFlavors {

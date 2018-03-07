@@ -59,10 +59,12 @@ public class UserViewAdapter extends BaseAdapter {
 
         TextView user_name = (TextView)itemView.findViewById(R.id.tx_nameView);
         TextView user_phone = (TextView)itemView.findViewById(R.id.tx_phoneView);
+        TextView user_gen = (TextView)itemView.findViewById(R.id.tx_angkatanVIew);
         TextView user_university = (TextView)itemView.findViewById(R.id.tx_universityVIew);
 
         user_name.setText(listUsers.get(i).getName());
         user_phone.setText(listUsers.get(i).getPhone());
+        user_gen.setText(listUsers.get(i).getSchool());
         user_university.setText(listUsers.get(i).getUniversity());
 
         return itemView;
@@ -80,7 +82,9 @@ public class UserViewAdapter extends BaseAdapter {
                     listUsers.add(userDetail);
                 } else if (charText.length() != 0 && userDetail.getUniversity().toLowerCase(Locale.getDefault()).contains(charText)){
                     listUsers.add(userDetail);
-                }else if (charText.length() != 0 && userDetail.getPhone().toLowerCase(Locale.getDefault()).contains(charText)){
+                } else if (charText.length() != 0 && userDetail.getPhone().toLowerCase(Locale.getDefault()).contains(charText)){
+                    listUsers.add(userDetail);
+                } else if (charText.length() != 0 && userDetail.getSchool().toLowerCase(Locale.getDefault()).contains(charText)){
                     listUsers.add(userDetail);
                 }
             }

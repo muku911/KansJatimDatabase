@@ -96,6 +96,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
+                android:onClick="viewMember"
                 android:text="View Contact"
                 android:textStyle="bold" />
 

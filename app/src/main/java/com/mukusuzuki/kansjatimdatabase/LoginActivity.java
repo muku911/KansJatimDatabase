@@ -194,5 +194,11 @@ public class LoginActivity extends AppCompatActivity {
         userlogin = null;
 
     }
+
+    public void viewMember(View view){
+        Intent i = new Intent(LoginActivity.this, ListContactActivity.class);
+        startActivity(i);
+
+    }
 }
 

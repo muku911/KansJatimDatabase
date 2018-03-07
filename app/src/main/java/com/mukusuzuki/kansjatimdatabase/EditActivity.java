@@ -333,7 +333,7 @@ public class EditActivity extends AppCompatActivity {
             UID = bundle.getString("ID");
             username = bundle.getString("USERNAME");
 
-            User user = new User(username,UID, nickname, name, password, phone, univFull);
+            User user = new User(username,UID, nickname, name, password, phone, univFull, totalschool);
             userDatabase.child("users").child(username).setValue(user);
 
             Database database = new Database(UID, name, nickname, birthday, phone, email, totalschool,

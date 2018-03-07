@@ -6,12 +6,12 @@ package com.mukusuzuki.kansjatimdatabase;
 
     public class User {
 
-    private String user, uid, nickname, name, password, phone, university;
+    private String user, uid, nickname, name, password, phone, university, school;
 
     public User() {
     }
 
-    public User(String user, String uid, String nickname, String name, String password, String phone, String university) {
+    public User(String user, String uid, String nickname, String name, String password, String phone, String university, String school) {
         this.user = user;
         this.uid = uid;
         this.nickname = nickname;
@@ -19,6 +19,7 @@ package com.mukusuzuki.kansjatimdatabase;
         this.password = password;
         this.phone = phone;
         this.university = university;
+        this.school = school;
     }
 
     public String getUser() {
@@ -75,5 +76,13 @@ package com.mukusuzuki.kansjatimdatabase;
 
     public void setUniversity(String university) {
         this.university = university;
+    }
+
+    public String getSchool() {
+        return school;
+    }
+
+    public void setSchool(String school) {
+        this.school = school;
     }
 }
